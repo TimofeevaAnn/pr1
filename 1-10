@@ -97,20 +97,9 @@ public class lab1 {
             return (win*3+draw);
         }
         public static boolean divisibleByFive(int num){
-            if(num%5==0)
-                return true;
-            return false;
+                return num%5==0;
         }
-        public static boolean and(int a, int b){
-            boolean aa, bb;
-            if(a==1)
-                aa = true;
-            else
-                aa = false;
-            if(b==1)
-                bb = true;
-            else
-                bb = false;
+        public static boolean and( boolean aa,boolean bb){
             return aa&&bb;
         }
         public static int howManyWalls(int n, int h, int w){
